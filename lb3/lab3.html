@@ -4,13 +4,68 @@
 <meta charset="UTF-8">
     </head>
     <body>
-        <table>
+        <table border ="1">
             <tr>
-                <th>Pizza Shop 2.0</th>
-                <td>Name:</td>
+                <th colspan="2">Pizza Shop 2.0</th>
+                
             </tr>
             <tr>
-                <td> <input type = "text"  name = "name" placeholder = "Text your name"><br><br></td>
+                <td> Name </td>
+                <td><input type = "text"  name = "name" placeholder = "Text your name"><br><br></td>
+            </tr>
+            <tr>
+                <td>Pizza topping </td>
+            <td><form> 
+                    <label>
+                        <input type ="radio" name = "topping" value="supreme">
+                        Supreme
+                    </label>
+                    <br>
+                    <label>
+                        <input type ="radio" name = "topping" value="vegeterian">
+                        Vegeterian
+                    </label>
+                    <br>
+                    <label>
+                        <input type ="radio" name = "topping" value="hawaiian">
+                        Hawaiian
+                    </label>
+                </form> 
+            </td>
+            </tr>
+            <tr>
+                <td>Pizza Souce</td>
+           <td>
+            <select name="sauces">
+                <option value="1">Tomato</option>
+                <option value="2">Mayou</option>
+                <option value="3">Barbecue</option>
+                
+              </select>     
+        </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td><form>
+                    <label>
+                      <input type="checkbox" name="extras" value="cheese">
+                      Extra Cheese
+                    </label>
+                    <br>
+                    <label>
+                      <input type="checkbox" name="extras" value="gluten free">
+                      Gluten Free Base
+                    </label>
+                  </form></td>
+            </tr>
+            <tr> 
+                <td colspan="2">Delivery Instructions<br> 
+                <form>
+                    <textarea rows="3" cols="40"></textarea>
+                </form></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <form><button type="submit">Send my Order</button></form></td>
             </tr>
         </table>
     </body>
