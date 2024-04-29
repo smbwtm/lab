@@ -12,10 +12,48 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+aside {
+    width: 30%;
+}
+
+aside img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.download-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+main {
+    width: 70%;
+    padding-left: 20px;
 }
 
 header {
-    text-align: center;
     padding-bottom: 20px;
 }
 
