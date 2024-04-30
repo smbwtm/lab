@@ -1,18 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    max-width: 90%; 
+    max-height: 90%; 
 }
 
 aside {
@@ -21,31 +27,36 @@ aside {
 
 aside img {
     display: block;
-    width: 100%;
-    border-radius: 8px;
+    width: 70%;
+    border-radius: 10px;
+   
 }
 
 .contact-info {
     margin-top: 20px;
+   
 }
 
 .contact-info p {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
-.download-btn {
+.button-btn {
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #e9e3e3;
+    color: #3eb3de;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    transition: color 0.3s; 
+   
 }
 
-.download-btn:hover {
-    background-color: #0056b3;
+.button-btn:hover {
+    color: #fff; 
+    background-color: #89c8e3; 
 }
 
 main {
@@ -68,8 +79,9 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-flex;
     margin-right: 20px;
+    
 }
 
 nav ul li a {
