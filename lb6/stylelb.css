@@ -97,3 +97,35 @@ h2 {
     font-size: 24px;
     color: #333;
 }
+.doing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    background-color: #ffffff;
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.doing-item {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    border: 2px solid transparent; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doing-item:hover {
+    border-color: #007bff; 
+}
+.doing-item h3 {
+    margin-top: 0;
+    text-align: center;
+}
+.doing-item img
+{
+    display: grid;
+    width: 15%;
+    border-radius: 5px;
+   
+}
