@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p><strong>Age:</strong> ${dog.age}</p>
             <p><strong>Sex:</strong> ${dog.sex}</p>
             <p>${dog.description}</p>
+            <button class="adopt-button">Adopt me</button>
         `;
         dogModal.style.display = 'block';
     }
